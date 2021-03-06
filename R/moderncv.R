@@ -36,7 +36,7 @@ moderncv_cv_entries <- new_entry_formats(
     paste(
       c(
         "\\nopagebreak",
-        glue_alt("\t\\cvitem{<<when>>}{<<what>>. <<with>>}")
+        glue_alt("\t\\cvitem{<<when>>}{<<what>> <<with>>}")
       ),
       collapse = "\n"
     )
